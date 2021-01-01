@@ -1,0 +1,10 @@
+.styles-footerWrapper {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 22px 0px 20px 0px;
+    padding-left: 24px;
+    background-color: var(--brand-dark);
+  }
+  

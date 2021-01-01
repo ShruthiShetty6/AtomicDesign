@@ -1,0 +1,9 @@
+@import "../../_settings/_variables.css";
+
+.subtitle {
+  font-size: 1em;
+  color: var(--neutral);
+  list-style: 1;
+  font-weight: normal;
+  margin: 0;
+}
