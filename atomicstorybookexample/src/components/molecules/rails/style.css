@@ -4,4 +4,5 @@
     white-space: nowrap;
     overflow: scroll;
     position: relative;
+    background-color: var(--neutral);
 }

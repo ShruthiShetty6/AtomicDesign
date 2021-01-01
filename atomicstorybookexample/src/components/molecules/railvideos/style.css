@@ -1,0 +1,27 @@
+.railVideoWrapper {
+  display: grid;
+  grid-row-gap: 12px;
+  grid-column-gap: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--medium);
+}
+.styleContainer {
+  width: 100%;
+}
+
+@media (max-width: 1080px) and (min-width: 700px) {
+  .railVideoWrapper {
+    grid-template-columns: repeat(2, minmax(0, 100%));
+  }
+}
+@media (max-width: 1570px) and (min-width: 700px) {
+  .railVideoWrapper {
+    grid-template-columns: repeat(3, minmax(0, 100%));
+  }
+}
+@media (max-width: 1970px) and (min-width: 700px) {
+  .railVideoWrapper {
+    grid-template-columns: repeat(3, minmax(0, 100%));
+  }
+}
