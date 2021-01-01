@@ -1,6 +1,6 @@
 import React from "react";
 import Text from "../../atoms/text";
-import Icon from "../../atoms/icon";
+import Icon from "../../atoms/Image";
 import './style.css';
 import callicon from "../../../assets/icn_call.png";
 

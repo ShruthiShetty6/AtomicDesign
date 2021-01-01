@@ -1,0 +1,7 @@
+.railWrapper{
+        display: flex;
+    width: 100%;
+    white-space: nowrap;
+    overflow: scroll;
+    position: relative;
+}
