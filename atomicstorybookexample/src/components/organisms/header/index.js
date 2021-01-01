@@ -3,16 +3,18 @@ import NavMenu from "../../molecules/navmenu";
 import Logo from "../../molecules/logo";
 import Search from "../../molecules/search";
 import Login from "../../molecules/login";
+import HambergerMenu from "../../molecules/hambergermenu";
 import "./style.css";
 
 const Header = (props) => {
   return (
     <div>
       <div className={"styles-navWrapper"}>
-        <Logo/>
+        <HambergerMenu />
+        <Logo />
         <NavMenu />
-        <Search/>
-        <Login/>
+        <Search />
+        <Login />
       </div>
     </div>
   );

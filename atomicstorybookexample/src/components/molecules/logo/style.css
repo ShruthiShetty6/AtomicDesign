@@ -1,8 +1,7 @@
 .logo {
   background-image: url("../../../assets/discovery-plus-logo.png");
-  background-size: 10%;
-
-
+  height: 50px;
+  width: 25%;
+  background-size: contain;
   background-repeat: no-repeat;
-  background-position: right 0% bottom 0%;
 }

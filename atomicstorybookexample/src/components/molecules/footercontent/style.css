@@ -1,0 +1,10 @@
+.flexitem{
+display: flex;
+margin: 10px;
+margin-bottom: 15px;
+}
+.bottomfooter{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}

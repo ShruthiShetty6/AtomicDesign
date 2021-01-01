@@ -1,0 +1,7 @@
+.menu {
+  background-image: url("../../../assets/hamburger_menu.png");
+  height: 50px;
+  width: 5%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}

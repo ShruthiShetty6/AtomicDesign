@@ -1,0 +1,6 @@
+.nav--outer{
+    display:flex;
+}
+.anchor {
+  text-decoration: none;
+}

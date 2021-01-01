@@ -1,5 +1,6 @@
 import React from "react";
-import NavLink from "../../atoms/navlink";
+import Text from "../../atoms/text";
+import "./style.css";
 
 const NavBarData = [
   {
@@ -20,20 +21,14 @@ const NavBarData = [
 ];
 
 const NavMenu = (props) => {
-  const {
-    className = "",
-    children,
-    text = "",
-    url = "",
-    target = "",
-    image,
-    ...rest
-  } = props;
-
   return (
     <div className="nav--outer">
       {NavBarData.map((item, index) => {
-        return <NavLink key={index} className={item.cName} name={item.title} />;
+        return (
+          <a key={index} className="anchor">
+            <Text>{item.title}</Text>
+          </a>
+        );
       })}
     </div>
   );
