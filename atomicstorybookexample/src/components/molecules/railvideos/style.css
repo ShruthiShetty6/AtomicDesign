@@ -1,15 +1,40 @@
+.railVideoMain {
+  background-color: var(--medium);
+  padding: 20px;
+}
+.videoHeader{
+  color: var(--white);
+  font-size: 20px;
+  margin: 0;
+}
 .railVideoWrapper {
+  margin-top: 20px;
   display: grid;
   grid-row-gap: 12px;
   grid-column-gap: 10px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-color: var(--medium);
 }
 .styleContainer {
   width: 100%;
+  position: relative;
 }
-
+.thumbnailContainer {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 56.25%;
+  background-color: #262931;
+  background-color: var(--brand-light);
+  border-radius: 10px;
+}
+.videoImg {
+  top: 0px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: inline;
+  padding-bottom: 56.25%;
+  z-index: 2;
+  border-radius: 10px;
+}
 @media (max-width: 1080px) and (min-width: 700px) {
   .railVideoWrapper {
     grid-template-columns: repeat(2, minmax(0, 100%));

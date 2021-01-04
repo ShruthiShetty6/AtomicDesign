@@ -5,7 +5,7 @@ import Button from "../../atoms/button";
 const Login = (props) => {
   return (
     <div>
-      <Button>Sign In</Button>
+      <Button className="btn">Sign In</Button>
     </div>
   );
 };

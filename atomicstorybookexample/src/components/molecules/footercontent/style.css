@@ -1,10 +1,20 @@
-.flexitem{
-display: flex;
-margin: 10px;
-margin-bottom: 15px;
+.flexitem {
+  display: flex;
+  margin: 10px;
+  margin-bottom: 15px;
 }
-.bottomfooter{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-evenly;
+.bottomfooter {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footerContent {
+  font-size: 14px;
+  padding-left: 10px;
+  color: var(--neutral6);
+  margin: 0;
+  font-weight: normal;
+}
+.footericon {
+  width: 20px;
 }

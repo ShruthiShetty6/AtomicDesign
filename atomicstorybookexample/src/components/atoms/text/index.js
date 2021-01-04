@@ -1,7 +1,7 @@
 import * as React from "react";
 import "./style.css";
 
-const Text = (props) => <h6 className="subtitle">{props.children}</h6>;
+const Text = (props) => <h6 className={props.className}>{props.children}</h6>;
 
 Text.defaultProps = {
   className: "",

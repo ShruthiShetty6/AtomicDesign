@@ -1,14 +1,14 @@
 import React from "react";
-import "./style.css";
 import Button from "../../atoms/button";
+import './style.css';
 
-const HeroText = (props) => {
+const HeroButton = (props) => {
   return (
-    <div>
-      <Button>New</Button>
-      <Button>Don't Miss</Button>
+    <div className="heroBtn">
+      <Button className="btnStyle">New</Button>
+      <Button className="btnStyle">Don't Miss</Button>
     </div>
   );
 };
 
-export default Content;
+export default HeroButton;

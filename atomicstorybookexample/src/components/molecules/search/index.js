@@ -1,10 +1,10 @@
 import React from "react";
 import Input from "../../atoms/input";
-// import "./style.css";
+ import "./style.css";
 
 const Search = () => {
   return (
-    <div>
+    <div className="searchCont">
       <Input />
     </div>
   );

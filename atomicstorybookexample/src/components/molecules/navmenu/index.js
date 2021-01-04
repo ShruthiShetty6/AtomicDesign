@@ -26,7 +26,7 @@ const NavMenu = (props) => {
       {NavBarData.map((item, index) => {
         return (
           <a key={index} className="anchor">
-            <Text>{item.title}</Text>
+            <Text className="navTitle">{item.title}</Text>
           </a>
         );
       })}

@@ -3,7 +3,7 @@ import classnames from 'classnames'
 import styles from "./style.css";
 
 const Title = (props) => (
-  <h1 className={classnames(styles.title, props.className)}>
+  <h1 className="title">
     {props.children}
   </h1>
 );

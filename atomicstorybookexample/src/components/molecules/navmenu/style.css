@@ -1,6 +1,13 @@
-.nav--outer{
-    display:flex;
+.nav--outer {
+  display: flex;
+  flex: 1;
 }
 .anchor {
   text-decoration: none;
+}
+.navTitle {
+  font-size: 1.1rem;
+  font-weight: normal;
+  padding-right: 12px;
+  color: var(--neutral6);
 }
